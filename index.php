@@ -17,7 +17,21 @@ $longdescription = "Get Off Your Island, and into a 'Ship!";
   </head>
 
   <body>
-    <h1>Rowboat - dating for everyone</h1>
-    <p><a href="./splashpage.php">Go to the intro page</a></p>
+    <div class="header">
+      <div class="logo"><img src="./resources/media/logo.svg"></div>
+      <div class="headerlinks">
+        <span class="headerlink"><a href="./about">About</a></span>
+        <span class="headerlink"><a href="./safety">Safety</a></span>
+        <span class="headerlink"><a href="./privacy">Privacy</a></span>
+        <span class="headerlink"><a href="./pricing">Pricing</a></span>
+      </div>
+      <div class="signup"><a href="./signup">sign up</a></div>
+      <div class="login"><a href="userhome">log in</a></div>
+    </div>
+    <div class="main">
+      <div class="titletext">Get into Your Next 'Ship!</div>
+      <div class="blurb"></div>
+    </div>
+    <div class="footer"></div>
   </body>
 </html>

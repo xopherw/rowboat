@@ -1,10 +1,22 @@
 body {
   font-family: sans-serif;
-  padding: 2%;
+  width: 100vw;
 }
 
-#logo {
-  width: 25%;
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  background-image: url(https://images.pexels.com/photos/8116281/pexels-photo-8116281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 
