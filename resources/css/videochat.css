@@ -1,0 +1,14 @@
+#localvideo {
+  width: 25%;
+  height: auto;
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+  #localvideo {
+    width: 90%;
+  }
+
+}

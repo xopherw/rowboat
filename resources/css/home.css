@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  padding: 2%;
+}
+
+#logo {
+  width: 25%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+  #logo {
+    width: 90%;
+  }
+
+}

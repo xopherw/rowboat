@@ -1,0 +1,15 @@
+a {
+  color: #2af;
+}
+
+a:visited {
+  color: #faf;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+    color: white;
+  }
+}
