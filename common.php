@@ -21,7 +21,9 @@ $headcontent = '
 ';
 
 $headercontent = '
-<a href="./"><div class="logo"><img src="./resources/media/logo.svg"></div></a>
+<span class="tog hamburger" tabindex="0"></span>
+
+<span class="headerlink"><a href="./"><div class="logo"><img src="./resources/media/logo.svg"></div></a></span>
 <span class="headerlink"><a href="./about.php">About</a></span>
 <span class="headerlink"><a href="./safety.php">Safety</a></span>
 <span class="headerlink"><a href="./privacy.php">Privacy</a></span>

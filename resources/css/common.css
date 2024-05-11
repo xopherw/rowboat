@@ -56,6 +56,30 @@ footer .quote {
 
 
 @media screen and (max-width: 1000px) {
+
+.hamburger {
+    position: relative;
+    display: none;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid #6cf;
+    border-bottom: 0.2em solid #28c;
+}
+.hamburger::before {
+     content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #4ae;
+}
+.hamburger:hover::after, .hamburger:focus::after { content: ""; }
+
+
+  .headerlink {
+    display: none;
+  }
   
   footer {
     flex-direction: column;
