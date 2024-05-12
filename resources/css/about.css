@@ -1,9 +1,68 @@
-h2 {
-  font-family: "Dancing Script", cursive;
+.main {
+  background-image: linear-gradient(100deg,rgba(107,67,195,1),rgba(0,0,0,0) 90%);
+}
+.maincontent {
+  padding: 0 5%;
+  text-align: center;
 }
 
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 30pt;
+}
+
+.textpicwrap {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background-color: #fff;
+  color: black;
+  border-radius: 30px;
+  height: 75vh;
+  padding: 10px;
+}
+
+.textpicwrap > * {
+  max-width: 49%;
+  max-height: 90%;
+}
+.text {
+  line-height: 1.5em;
+  align-self: center;
+  text-align: left;
+}
+
+.pic {
+  text-align: center;
+  align-self: center;
+}
+
+.pic > img {
+  max-width: 90%;
+  max-height: 68vh;
+}
 
 @media screen and (max-width: 640px) {
+  .textpicwrap {
+    width: 95%;
+    margin: 0 auto;
+    flex-flow: column nowrap;
+    height: auto;
+  }
+  .textpicwrap > * {
+    margin: 10px;
+    max-width: none;
+  }
+}
 
-
+@media (prefers-color-scheme: dark) {
+  .textpicwrap {
+    background-color: #222;
+    color: white;
+  }
+  
+  .textpicwrap > * {
+    padding: 5px;
+  }
 }

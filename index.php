@@ -3,21 +3,16 @@ $pagename = "Home";
 include "./common.php";
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <?php echo $headcontent; ?>
   </head>
-
   <body>
     <div class="main">
       <span class="flextog hamback"><span class="hamburger" tabindex="0"></span></span>
-      <header>
-        <?php echo $headercontent; ?>
-      </header>
+      <header><?php echo $headercontent; ?></header>
       <div class="break"></div>
-      
       <div class="maincontent">
         <div class="titletext">Get into Your Next 'Ship!</div>
         <div class="signin">
@@ -34,21 +29,8 @@ include "./common.php";
       </div>
       
       <div class="break"></div>
-      
     </div>
-    
-    <footer>
-      <div class="footerlinks">
-        <p><a href="./about.php">About Rowboat</a></p>
-        <p><a href="./safety.php">Online Safety</a></p>
-        <p><a href="./privacy.php">Privacy and Data Usage</a></p>
-        <p><a href="./pricing.php">Plus Account</a></p>
-        <p><a href="./contactus.php">Contact Us</a></p>
-        <p><a href="https://github.com/steveman1123/rowboat">View Source</a></p>
-        <p><a href="https://github.com/steveman1123/rowboat/issues">Technical Support</a></p>
-      </div>
-      <div class="quote">"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage." ~Lao Tzu</div>
-    </footer>
+    <footer><?php echo $footercontent; ?></footer>
   </body>
   <script src="./common.js"></script>
 </html>

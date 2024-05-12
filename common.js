@@ -14,3 +14,7 @@ for(let i=0;i<flextogs.length;i++){
   flextogs[i].addEventListener('keypress', flextog, false);
   flextogs[i].addEventListener('click', flextog, false);
 }
+
+function newquote() {
+  console.log("eventually, clicking the quote will get a new one from a predefined list");
+}

@@ -75,15 +75,17 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 25vh;
+  background-color: #222;
 }
 
 footer a {
   font-size: small;
-  color: #aaa;
+  color: #888;
 }
 
 footer a:visited {
-  color: #aaa;
+  color: #888;
 }
 
 footer p {
@@ -121,9 +123,11 @@ footer .quote {
     text-align: center;
   }
 
-    footer .quote {
-      width: 75%;
-    }
+  footer .quote {
+    margin: 20px;
+    width: 75%;
+    border: solid black 1px;
+  }
 }
 
 
@@ -137,4 +141,5 @@ footer .quote {
     background-color: #222;
     color: white;
   }
+  
 }

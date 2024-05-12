@@ -27,3 +27,20 @@ $headercontent = '
 <a href="./privacy.php">Privacy</a>
 <a href="./pricing.php">Plus Account</a>
 ';
+
+$footercontent = '
+<div class="footerlinks">
+  <p><a href="./about.php">About Rowboat</a></p>
+  <p><a href="./safety.php">Online Safety</a></p>
+  <p><a href="./privacy.php">Privacy and Data Usage</a></p>
+  <p><a href="./pricing.php">Plus Account</a></p>
+</div>
+
+<div class="footerlinks">
+<p><a href="./contactus.php">Contact Us</a></p>
+  <p><a href="https://github.com/steveman1123/rowboat">View Source</a></p>
+  <p><a href="https://github.com/steveman1123/rowboat/issues">Technical Support</a></p>
+</div>
+  
+<div class="quote" onclick="newquote();">"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage." ~Lao Tzu</div>
+';
