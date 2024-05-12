@@ -12,9 +12,11 @@ include "./common.php";
 
   <body>
     <div class="main">
+      <span class="flextog hamback"><span class="hamburger" tabindex="0"></span></span>
       <header>
         <?php echo $headercontent; ?>
       </header>
+      <div class="break"></div>
       
       <div class="maincontent">
         <div class="titletext">Get into Your Next 'Ship!</div>
@@ -30,7 +32,9 @@ include "./common.php";
           <p><a href="./makeaccount.php">Don't have an account yet?</a></p>
         </div>
       </div>
-      <div>&nbsp;</div>
+      
+      <div class="break"></div>
+      
     </div>
     
     <footer>
@@ -46,4 +50,5 @@ include "./common.php";
       <div class="quote">"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage." ~Lao Tzu</div>
     </footer>
   </body>
+  <script src="./common.js"></script>
 </html>

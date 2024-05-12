@@ -21,11 +21,9 @@ $headcontent = '
 ';
 
 $headercontent = '
-<span class="tog hamburger" tabindex="0"></span>
-
-<span class="headerlink"><a href="./"><div class="logo"><img src="./resources/media/logo.svg"></div></a></span>
-<span class="headerlink"><a href="./about.php">About</a></span>
-<span class="headerlink"><a href="./safety.php">Safety</a></span>
-<span class="headerlink"><a href="./privacy.php">Privacy</a></span>
-<span class="headerlink"><a href="./pricing.php">Plus Account</a></span>
+<a href="./"><div class="logo"><img src="./resources/media/logo.svg"></div></a>
+<a href="./about.php">About</a>
+<a href="./safety.php">Safety</a>
+<a href="./privacy.php">Privacy</a>
+<a href="./pricing.php">Plus Account</a>
 ';

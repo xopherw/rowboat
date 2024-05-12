@@ -2,7 +2,7 @@
 
 .main {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   min-height: fit-content;
   margin: 0;
   /* use this one for better resolution */
@@ -20,7 +20,7 @@
   align-content: flex-start;
 }
 
-.main > * {
+.main > div {
   width: 100%;
 }
 
@@ -60,6 +60,7 @@
 .signin button:hover, signin button:focus {
   box-shadow: 2px 2px 5px black;
 }
+
 
 
 
