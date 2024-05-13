@@ -25,7 +25,23 @@ $headercontent = '
 <a href="./about.php">About</a>
 <a href="./safety.php">Safety</a>
 <a href="./privacy.php">Privacy</a>
-<a href="./pricing.php">Plus Account</a>
+<a href="./pricing.php">Pricing</a>
+<a href="./login.php">Login/Signup</a>
+';
+
+$signinbox = '
+<div class="signin">
+  <h2>LOG IN</h2>
+  <form method="post" action="./userhome.php">
+    <p><label for="uname">Username</label></p>
+    <input type="text" name="uname" autofocus>
+    <p><label for="pass">Password</label></p>
+    <input type="password" name=pass">
+    <p><button type="submit">Let\'s Go!</button></p>
+  </form>
+  <p><a href="./forgotpassword.php">forgot your password?</a></p>
+  <p><a href="./makeaccount.php">Don\'t have an account yet?</a></p>
+</div>
 ';
 
 $footercontent = '
@@ -33,7 +49,7 @@ $footercontent = '
   <p><a href="./about.php">About Rowboat</a></p>
   <p><a href="./safety.php">Online Safety</a></p>
   <p><a href="./privacy.php">Privacy and Data Usage</a></p>
-  <p><a href="./pricing.php">Plus Account</a></p>
+  <p><a href="./pricing.php">Pricing</a></p>
 </div>
 
 <div class="footerlinks">

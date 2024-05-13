@@ -12,9 +12,8 @@ include "./common.php";
     <div class="main">
       <span class="flextog hamback"><span class="hamburger" tabindex="0"></span></span>
       <header><?php echo $headercontent; ?></header>
-      <div class="break"></div>
       <div class="maincontent">
-        <h1>User Login</h1>
+        <?php echo $signinbox; ?>
       </div>
       <div class="break"></div>
     </div>
