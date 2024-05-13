@@ -1,0 +1,33 @@
+.main {
+}
+.maincontent {
+  padding: 0 5%;
+}
+
+.pricetable {
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 16pt;
+  overflow-x: scroll;
+}
+
+
+.titlecol, .pricecol {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 25em;
+  text-align: center;
+}
+
+.titlecol {
+  text-align: left;
+}
+
+.pricebox {
+  border: solid #888 1px;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 640px) {
+}

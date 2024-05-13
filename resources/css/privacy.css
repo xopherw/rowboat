@@ -1,0 +1,17 @@
+.main {
+}
+.maincontent {
+  padding: 0 10%;
+}
+
+.pic {
+  text-align: center;
+}
+
+img {
+  width: 80%;
+}
+
+
+@media screen and (max-width: 640px) {
+}
