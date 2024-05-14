@@ -94,7 +94,7 @@ $longdescription = "Get Off Your Island, and into a 'Ship!";
     <ul>
       <li>&#9989; Design logo & branding</li>
       <li>&#9989; build basic page structure</li>
-      <li>build basic web app front end</li>
+      <li>&#8987; build basic web app front end</li>
       <li>obtain domain (rowboatdating.com)</li>
       <li>obtain email address(es)</li>
       <li>&#9989 set up git - link to it <a href="https://github.com/steveman1123/rowboat">here</a></li>
@@ -105,7 +105,7 @@ $longdescription = "Get Off Your Island, and into a 'Ship!";
 
     <h4>L2 - MID-HIGH PRIORITY</h4>
     <ul>
-      <li>build full web app</li>
+      <li>&#8987; build full web app</li>
       <li>build android app</li>
       <li>build ios app</li>
       <li>set up video chat interface (webRTC)</li>
@@ -119,6 +119,7 @@ $longdescription = "Get Off Your Island, and into a 'Ship!";
       <li>set up questionaires & preferences</li>
       <li>set up user filtering</li>
       <li>set up monetization avenues</li>
+      <li>set up payment processing</li>
     </ul>
     
     <h4>L4 - MID-LOW PRIORITY</h4>
