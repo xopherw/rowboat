@@ -71,6 +71,42 @@ header a:hover,header a:focus {
 
 
 
+.signin {
+  color: black;
+  background-color: white;
+  text-align: center;
+  width: 25%;
+  min-height: 50vh;
+  border-radius: 35px;
+  box-shadow: 5px 5px 10px black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.signin button {
+  font-size: large;
+  color: white;
+  background-color: #A17FFF;
+  border-radius: 0.8em;
+  transition: all 0.3s;
+  padding: 5px;
+}
+
+.signin button:hover, signin button:focus {
+  box-shadow: 2px 2px 5px black;
+}
+
+.oauth {
+  width: 85%;
+}
+
+.signin button > img {
+  height: 1em;
+}
+
+
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -105,6 +141,12 @@ footer .quote {
   cursor: pointer;
 }
 
+.break {
+  height: 1em;
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
   .hamback {display: block;}
@@ -117,6 +159,11 @@ footer .quote {
     line-height: 1.5em;
   }
   
+  .signin {
+    min-height: inherit;
+    padding: 25px 0;
+    width: 80%;
+  }
   
   footer {
     flex-direction: column;
@@ -131,9 +178,7 @@ footer .quote {
 }
 
 
-.break {
-  height: 1em;
-}
+
 
 
 @media (prefers-color-scheme: dark) {

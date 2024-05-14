@@ -39,7 +39,9 @@ $signinbox = '
     <input type="password" name=pass">
     <p><button type="submit">Let\'s Go!</button></p>
   </form>
-  <p><a href="./forgotpassword.php">forgot your password?</a></p>
+  <p><button class="goog oauth"><img src="./resources/media/goog.png">&emsp;&emsp;Sign in with Google</button></p>
+  <p><button class="aapl oauth"><img src="./resources/media/aapl.png">&emsp;&emsp;Sign in with Apple</button></p>
+  <p><a href="./forgotpassword.php">Forgot your password?</a></p>
   <p><a href="./makeaccount.php">Don\'t have an account yet?</a></p>
 </div>
 ';
