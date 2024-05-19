@@ -1,0 +1,10 @@
+body > div {
+  border: solid black 1px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  body > div {
+    border: solid white 1px;
+  }
+}

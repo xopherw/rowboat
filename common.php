@@ -14,7 +14,7 @@ $headcontent = '
 <meta name="viewport" content="width=device-width; initial-scale=1">
 <meta name="description" content="'.$longdescription.'">
 <link href="./resources/css/common.css" rel="stylesheet" type="text/css">
-<link href="./resources/css/'.strtolower($pagename).'.css" rel="stylesheet" type="text/css">
+<link href="./resources/css/'.strtolower(str_replace(" ","",$pagename)).'.css" rel="stylesheet" type="text/css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
@@ -43,6 +43,13 @@ $signinbox = '
   <p><button class="aapl oauth"><img src="./resources/media/aapl.png">&emsp;&emsp;Sign in with Apple</button></p>
   <p><a href="./forgotpassword.php">Forgot your password?</a></p>
   <p><a href="./makeaccount.php">Don\'t have an account yet?</a></p>
+</div>
+';
+
+$forgotpassbox = '
+<div class="signin">
+  <h2>FORGOT PASSWORD</h2>
+  
 </div>
 ';
 
