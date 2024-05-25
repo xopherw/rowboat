@@ -16,7 +16,7 @@ include "./common.php";
       <div class="maincontent">
         <?php echo $signinbox; ?>
       </div>
-      <div class="break"></div>
+        <div class="break">&nbsp;</div>
     </div>
     <footer><?php echo $footercontent; ?></footer>
   </body>

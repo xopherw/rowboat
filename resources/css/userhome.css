@@ -1,10 +1,73 @@
-body > div {
+header {
+  background-image: none;
+  background-color: #222;
+  font-size: 16pt;
+  line-height: normal;
+  vertical-align: inherit;
+}
+
+.maincontent {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-height: 100vh;
+  height: fit-content;
+}
+
+.maincontent > div {
   border: solid black 1px;
+  padding: 10px;
+  margin: 2px;
+  resize: both;
+  overflow: auto;
+}
+
+.matches {
+  width: 15vw;
+  height: 80vh;
+}
+.texts {
+  width: 15vw;
+  height: 80vh;
+}
+.vids {
+  width: 15vw;
+  height: 80vh;
+}
+.cal {
+  flex-grow: 2;
+  height: 80vh;
+}
+.stats {
+  width: 100vw;
+  height: 40vh;
+}
+.acct {
+  width: 50vw;
+  height: 30vh;
+}
+.prof {
+  flex-grow: 2;
+  height: 30vh;
 }
 
 
+@media screen and (max-width: 1000px) {
+  header {
+    line-height: 1.5em;
+  }
+  .maincontent > div {
+    width: 100vw;
+    height: 85vh;
+    margin: 10px;
+  }
+}
+
+
+
 @media (prefers-color-scheme: dark) {
-  body > div {
+  .maincontent > div {
     border: solid white 1px;
   }
 }
