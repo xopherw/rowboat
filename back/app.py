@@ -1,7 +1,10 @@
 import firebase_admin, os, json
 from firebase_admin import credentials
 from firebase_admin import firestore
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
+from typing import Annotated
+from pydantic import BaseModel
+from models import *
 # from firebase import firebase
 
 
@@ -16,13 +19,7 @@ async def root():
     return {"message": "Hello World"}
 
 @app.post("/add_user")
-async def add_user(first_name: str, last_name: str, email: str, age: int):
-    user = {
-        "first_name": first_name,
-        "last_name": last_name,
-        "email": email, 
-        "age": 35,
-    }
+async def add_user(user: User):
     db.collection("users").add(user)
     return {"message": "User added successfully"}
 
